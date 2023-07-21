@@ -2,13 +2,10 @@
   "name": "business-day-calc-israel",
   "version": "0.0.0",
   "private": true,
-  "engines": {
-    "node": "^16.14.0 || >=18.10.0"
-  },
   "scripts": {
     "dev": "ng serve",
     "ng": "ng",
-    "start": "pnpm run dev",
+    "start": "npm run dev",
     "build": "ng build",
     "watch": "ng build --watch",
     "test": "ng test"
