@@ -1,15 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>MyApp</title>
-    <base href="/" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-    <link rel="stylesheet" href="/src/styles.css" />
-  </head>
-  <body>
-    <app-root></app-root>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://unpkg.com/js-datepicker/dist/datepicker.min.css">
+</head>
+
+<body>
+
+    <h1>My First Heading</h1>
+    <p>My first paragraph.</p>
+    <input type="text" id="start-date-picker" />
+    <script src="https://unpkg.com/js-datepicker"></script>
+    <script>
+        const picker = datepicker('#start-date-picker');
+    </script>
+</body>
+
 </html>
